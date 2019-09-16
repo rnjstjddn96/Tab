@@ -12,6 +12,10 @@
 		EAA45AA3232F5D0000A0973C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA45AA1232F5D0000A0973C /* Main.storyboard */; };
 		EAA45AA5232F5D0200A0973C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA45AA4232F5D0200A0973C /* Assets.xcassets */; };
 		EAA45AA8232F5D0200A0973C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA45AA6232F5D0200A0973C /* LaunchScreen.storyboard */; };
+		EAA45AB1232F5DAF00A0973C /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA45AAF232F5DAF00A0973C /* lamp_on.png */; };
+		EAA45AB2232F5DAF00A0973C /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA45AB0232F5DAF00A0973C /* lamp_off.png */; };
+		EAA45AB4232F5E4200A0973C /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA45AB3232F5E4200A0973C /* ImageViewController.swift */; };
+		EAA45AB6232F5F0700A0973C /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA45AB5232F5F0700A0973C /* DateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,11 @@
 		EAA45AA4232F5D0200A0973C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAA45AA7232F5D0200A0973C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAA45AA9232F5D0200A0973C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA45AAF232F5DAF00A0973C /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
+		EAA45AB0232F5DAF00A0973C /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		EAA45AB3232F5E4200A0973C /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		EAA45AB5232F5F0700A0973C /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateViewController.swift; path = ../../DatePicker/DatePicker/DateViewController.swift; sourceTree = "<group>"; };
+		EAA45AB7232F602800A0973C /* Tsingtao.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tsingtao.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +65,15 @@
 			children = (
 				EAA45A9D232F5D0000A0973C /* AppDelegate.swift */,
 				EAA45A9F232F5D0000A0973C /* ViewController.swift */,
+				EAA45AB3232F5E4200A0973C /* ImageViewController.swift */,
 				EAA45AA1232F5D0000A0973C /* Main.storyboard */,
 				EAA45AA4232F5D0200A0973C /* Assets.xcassets */,
 				EAA45AA6232F5D0200A0973C /* LaunchScreen.storyboard */,
+				EAA45AB7232F602800A0973C /* Tsingtao.jpg */,
 				EAA45AA9232F5D0200A0973C /* Info.plist */,
+				EAA45AB0232F5DAF00A0973C /* lamp_off.png */,
+				EAA45AAF232F5DAF00A0973C /* lamp_on.png */,
+				EAA45AB5232F5F0700A0973C /* DateViewController.swift */,
 			);
 			path = Tab;
 			sourceTree = "<group>";
@@ -122,7 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA45AB1232F5DAF00A0973C /* lamp_on.png in Resources */,
 				EAA45AA8232F5D0200A0973C /* LaunchScreen.storyboard in Resources */,
+				EAA45AB2232F5DAF00A0973C /* lamp_off.png in Resources */,
 				EAA45AA5232F5D0200A0973C /* Assets.xcassets in Resources */,
 				EAA45AA3232F5D0000A0973C /* Main.storyboard in Resources */,
 			);
@@ -136,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAA45AA0232F5D0000A0973C /* ViewController.swift in Sources */,
+				EAA45AB4232F5E4200A0973C /* ImageViewController.swift in Sources */,
+				EAA45AB6232F5F0700A0973C /* DateViewController.swift in Sources */,
 				EAA45A9E232F5D0000A0973C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
